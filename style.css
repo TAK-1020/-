@@ -1,0 +1,55 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 2rem;
+  color: #333;
+}
+
+h1 {
+  font-size: 2rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+.horse-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.horse-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 160px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.horse-card:hover {
+  transform: scale(1.05);
+}
+
+.horse-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.main-img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #0066cc;
+  text-decoration: none;
+}
